@@ -1,21 +1,9 @@
-# test
 
-  ![badge](https://img.shields.io/github/languages/top/test/undefined)
+  # Readme-Generator
+  ![badge](https://img.shields.io/github/languages/top/cmccray87/undefined)
   <br> 
-  ![badge](https://img.shields.io/github/languages/count/test/undefined)
+  ![badge](https://img.shields.io/github/languages/count/cmccray87/undefined)
   <br>
-  ![badge](https://img.shields.io/github/issues/test/undefined)
-  <br>
-  ![badge](https://img.shields.io/github/issues-closed/test/undefined)
-  <br>
-  ![badge](https://img.shields.io/github/last-commit/test/undefined)
-  <br>
-  ![badge](https://img.shields.io/badge/license-undefined-important)
-
-  ## Description
-
-  test
-
   ## Table of Contents
 
   [Description](#description)
@@ -27,23 +15,28 @@
   [Testing](#testing)
   [email](#email)
 
+  ## Description
+
+  an application to generate readme files
+  <br>
+
   ## Installation
   undefined
+  <br>
 
   ## Features
-  test
+  generating readme files
+  <br>
 
   ## Contributions
-  test
+  me
+
+  ## Testing
+  run 'node index.js'
 
   ## Licenses
   ![badge](https://img.shields.io/badge/license-undefined-important)
-  <br>
-  Permission to use this application is granted under the undefined license. <https://opensource.org/licenses/undefined>
 
-
-  ## Testing
-  test
-
-  ## Email
-  Contact me : <a href="mailto:test">test</a>"
+  ## Contact
+  Contact me : <a href="mailto:cody.mccray87@gmail.com">cody.mccray87@gmail.com</a>"
+  Github : <a href="https://github.com/cmccray87">https://github.com/cmccray87</a>
