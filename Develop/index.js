@@ -7,7 +7,15 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "What is the title of the application?"
+        message: "What is the title for the README?",
+        validate: title => {
+            if (title) {
+                return true;
+            } else {
+                console.log('Enter a README title');
+                return false;
+            }
+        }
     },
 
     {
@@ -25,13 +33,29 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Enter a summary."
+        message: "Enter a summary.",
+        validate: description => {
+            if (description) {
+                return true;
+            } else {
+                console.log('Enter a description');
+                return false;
+            }
+        }
     },
 
     {
         type: "input",
         name: "installation",
-        message: "What is the installation and operating process?"  
+        message: "What is the installation and operating process?",
+        validate: installation => {
+            if (installation) {
+                return true;
+            } else {
+                console.log('Enter installation instructions');
+                return false;
+            }
+        }  
     },
 
     {
@@ -56,7 +80,15 @@ const questions = [
         type: "list",
         message: "Which licenses are you using?",
         name: "licenses",
-        choices: ["AAL", "ISC", "MIT", "NTP", "W3C"]
+        choices: [
+            "None",
+            "Apache",
+            "Academic",
+            "GNU",
+            "MIT",
+            "Mozilla",
+            "W3C"
+        ]
     },
 
     {
