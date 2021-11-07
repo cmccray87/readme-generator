@@ -14,6 +14,53 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ![badge](https://img.shields.io/github/languages/top/${data.github}/${data.repo})
+  <br> 
+  ![badge](https://img.shields.io/github/languages/count/${data.github}/${data.repo})
+  <br>
+  ![badge](https://img.shields.io/github/issues/${data.github}/${data.repo})
+  <br>
+  ![badge](https://img.shields.io/github/issues-closed/${data.github}/${data.repo})
+  <br>
+  ![badge](https://img.shields.io/github/last-commit/${data.github}/${data.repo})
+  <br>
+  ![badge](https://img.shields.io/badge/license-${data.license}-important)
+
+  ## Description
+
+  ${data.description}
+
+  ## Table of Contents
+
+  [Description](#description)
+  [Installation](#installation)
+  [useCase](#useCase)
+  [Features](#features)
+  [Contributions](#contributions)
+  [Licenses](#licenses)
+  [Testing](#testing)
+  [email](#email)
+
+  ## Installation
+  ${data.documentation}
+
+  ## Features
+  ${data.features}
+
+  ## Contributions
+  ${data.contributions}
+
+  ## Licenses
+  ![badge](https://img.shields.io/badge/license-${data.license}-important)
+  <br>
+  Permission to use this application is granted under the ${data.license} license. <https://opensource.org/licenses/${data.license}>
+
+
+  ## Testing
+  ${data.testing}
+
+  ## Email
+  Contact me : <a href="mailto:${data.email}">${data.email}</a>"
 `;
 }
 
